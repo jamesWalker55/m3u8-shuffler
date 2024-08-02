@@ -22,3 +22,6 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/m3u8_shuffler"]
+
+[project.scripts]
+shuffle = "m3u8_shuffler:main"
