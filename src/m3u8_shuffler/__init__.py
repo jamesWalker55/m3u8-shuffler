@@ -33,7 +33,7 @@ def write_m3u8(path, playlist: list[str]):
 
 
 def main():
-    path = Path(R"D:\Soundtracks\Downloaded Playlist 2024-08-02.m3u8")
+    path = Path(R"D:\Soundtracks\Downloaded Playlist 2024-11-29.m3u8")
     playlist = read_m3u8(path)
 
     # assign a range-limited random float to each playlist item
