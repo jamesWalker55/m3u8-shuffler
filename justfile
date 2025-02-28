@@ -1,0 +1,2 @@
+shuffle:
+    uv run shuffle
